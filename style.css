@@ -6,7 +6,7 @@
 
 body {
   background-color: #3b3b98;
-  color: #fff;
+  color: #000;
   font-family: "Muli", sans-serif;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,7 @@ h2 {
 
 .result-container {
   background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -76,6 +77,10 @@ h2 {
 .btn-large {
   display: block;
   width: 100%;
+}
+
+.btn:hover{
+  background-color: #4f4fef;
 }
 
 .setting {
